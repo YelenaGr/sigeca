@@ -27,7 +27,7 @@ if(isset($paralelo))
 <br>
 <br>
 
-
+<!-- Mejoras-->
 <?php echo form_open('paralelo/save_edit') ?>
 <?php if(isset($paralelo) && is_array($paralelo)): ?>
     <?php echo form_hidden('idparalelo',$paralelo['idparalelo']) ?>
